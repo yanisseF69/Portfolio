@@ -1,0 +1,351 @@
+[
+    {
+        "image" : "meshViewer.png",
+        "title": "Mesh Viewer",
+        "bodyText": [
+            "Developed a 3D visualization tool supporting multiple mesh formats (.off, .obj, .txt).",
+            "Implemented export functionalities to save meshes in the same formats.",
+            "Support for adding textures when the object allows it.",
+            "Continuous deployment with Gitlab CI."
+        ],
+        "links" : [
+            {
+                "text": "GitHub",
+                "href": "https://github.com/yanisseF69/MeshViewer"
+            }
+        ],
+        "tags" : [
+            "C++",
+            "Qt",
+            "OpenGL"
+        ]
+    },
+    {
+        "image" : "slicerGPT.gif",
+        "title": "SlicerGPT",
+        "bodyText": [
+            "3D Slicer extension that integrates a local AI chatbot.",
+            "Provide context-aware help using your scene and official documentation."
+        ],
+        "links" : [
+            {
+                "text": "GitHub",
+                "href": "https://github.com/yanisseF69/SlicerSlicerGPT"
+            }
+        ],
+        "tags" : [
+            "Python",
+            "AI",
+            "Pytorch",
+            "Transformers",
+            "Ollama"
+        ]
+    },
+    {
+        "image" : "diaphragm.gif",
+        "title": "Medical imaging research - Continued",
+        "bodyText": [
+            "3D organ reconstruction."
+        ],
+        "tags" : [
+            "Python",
+            "IA",
+            "Pytorch",
+            "MONAI"
+        ]
+    },
+    {
+        "image" : "diaphragm.png",
+        "title": "Medical imaging research",
+        "bodyText": [
+            "Automatic segmentation of the diaphragm.",
+            "Deep learning and usage of <b>Transfer Learning</b>."
+        ],
+        "links": [
+            {
+                "text": "Report (French)",
+                "href": "/Rapport_MIF11.pdf"
+            }
+        ],
+        "tags" : [
+            "Python",
+            "IA",
+            "Tensorflow",
+            "Keras"
+        ]
+    },
+    {
+        "image": "delaunay.png",
+        "title": "Mesh Processing",
+        "bodyText": [
+            "Mesh operators (triangle split, edge flip...).",
+            "Mesh construction from point clouds.",
+            "Implementation of Lawson's algorithm to obtain a \"Delaunay\" mesh."
+        ],
+        "tags": [
+            "C++",
+            "Meshes",
+            "Delaunay"
+        ]
+    },
+    {
+        "image" : "robots.jpg",
+        "title": "LEGO ball retrieval robots",
+        "bodyText": [
+            "Made in C++ with EV3Dev library.",
+            "Usage of OpenCV for image process.",
+            "Merge 4 cameras to obtain a top view."
+        ],
+        "links": [
+            {
+                "text": "Report (French)",
+                "href": "/Rapport_Idefix.pdf"
+            }
+        ],
+        "tags" : [
+            "C++",
+            "EV3Dev",
+            "OpenCV",
+            "Robotics"
+        ]
+    },
+    {
+        "image": "imMedMouv.png",
+        "title": "Medical Imaging and Motion Tracking",
+        "bodyText": [
+            "Handling various modalities for medical image acquisition (MRI, X-rays, Ultrasound).",
+            "Lung segmentation, converting surface to tetrahedral mesh + creating the transformation matrix T00 <-> T50 with 3D Slicer.",
+            "Using a filtered back-projection algorithm on 2D scans to perform 3D reconstruction."
+        ],
+        "links": [
+            {
+                "text": "Segmentation Report (French)",
+                "href": "/Rapport_Segmentation.pdf"
+            },
+            {
+                "text": "MRI Report (French)",
+                "href": "/Rapport_IRM.pdf"
+            },
+            {
+                "text": "X-rays Report (French)",
+                "href": "/Rapport_RX.pdf"
+            },
+            {
+                "text": "Ultrasound Report (French)",
+                "href": "/Rapport_Ultrasons.pdf"
+            }
+        ],
+        "tags": [
+            "Medical Imaging",
+            "Python",
+            "3D Slicer",
+            "Segmentation",
+            "MRI",
+            "X-rays",
+            "Ultrasound"
+        ]
+    },
+    {
+        "image" : "drawing.png",
+        "title": "Drawing predictions website",
+        "bodyText": [
+            "Discovering of deep learning for image classification.",
+            "Using Tensorflow for building architecture and training.",
+            "Display of TOP 3 prediction percentage."
+        ],
+        "links": [
+            {
+                "text": "GitHub",
+                "href": "https://github.com/yanisseF69/Projet_info_2023"
+            }
+        ],
+        "tags" : [
+            "Python",
+            "Deep learning",
+            "AI",
+            "Tensorflow",
+            "Keras",
+            "OpenCV"
+        ]
+    },
+    {
+        "image" : "monteCarlo.png",
+        "title": "3D rendering",
+        "bodyText": [
+            "Made with C++.\n- Usage of ray tracing.",
+            "Implementation of the Monte Carlo estimator."
+        ],
+        "tags" : [
+            "C++",
+            "3D Rendering",
+            "Monte Carlo",
+            "Ray tracing"
+        ]
+    },
+    {
+        "image": "cubeWorld.png",
+        "title": "3D Image Synthesis",
+        "bodyText": [
+            "With C++ and the OpenGL 3D API.",
+            "Modeled a terrain filled with cubes.",
+            "Cube color varies based on height."
+        ],
+        "tags": [
+            "C++",
+            "OpenGL",
+            "3D Rendering"
+        ]
+    },
+    {
+        "image": "genCNN.png",
+        "title": "Deep Learning for Image Generation",
+        "bodyText": [
+            "Implemented in Python using Pytorch.",
+            "Reproduces images based on a dance video."
+        ],
+        "links": [
+            {
+                "text": "GitHub",
+                "href": "https://github.com/yanisseF69/ATIV-TP-Dance"
+            }
+        ],
+        "tags": [
+            "Python",
+            "Deep Learning",
+            "AI",
+            "Pytorch",
+            "Pillow",
+            "OpenCV"
+        ]
+    },
+    {
+        "image": "signal.png",
+        "title": "Signal process for images",
+        "bodyText": [
+            "Made with Matlab.",
+            "Usage of Fourier transform for image process."
+        ],
+        "tags": [
+            "Matlab",
+            "Signal",
+            "Fourier"
+        ]
+    },
+    {
+        "image": "fightClub.png",
+        "title": "Turn-Based Fighting Game",
+        "bodyText": [
+            "First project in game design and development.",
+            "Coded in C++ using the SDL2 and JsonCpp library."
+        ],
+        "tags": [
+            "C++",
+            "SDL2",
+            "JsonCpp",
+            "Game"
+        ]
+    },
+    {
+        "image": "tpCV.png",
+        "title": "Image Analysis",
+        "bodyText": [
+            "Made with Python, C++, and the OpenCV library.",
+            "Part 1: Edge detection using convolution filters.",
+            "Part 2: Implemented the Hough Transform algorithm to detect lines and circles."
+        ],
+        "links": [
+            {
+                "text": "GitHub",
+                "href": "https://github.com/yanisseF69/mif17-analyse-d_images"
+            }
+        ],
+        "tags": [
+            "C++",
+            "Python",
+            "OpenCV",
+            "Computer Vision",
+            "Hough Transform"
+        ]
+    },         
+    {
+        "image": "laplacian.png",
+        "title": "Laplacian Operator on a Mesh",
+        "bodyText": [
+            "Module in C++ for loading a mesh in .off format.",
+            "Implementation of the Laplacian operator to calculate curvature."
+        ],
+        "links": [
+            {
+                "text": "Report (French)",
+                "href": "/Rapport_GAM.pdf"
+            }
+        ],
+        "tags": [
+            "C++",
+            "Meshes",
+            "Geometry",
+            "Laplacian"
+        ]
+    },
+    {
+        "image" : "surfaces.png",
+        "title": "Curves, revolution and implicit surfaces",
+        "bodyText": [
+            "1rst part : Bézier et Hermite Cubique Spline curves.",
+            "2nd part : coding of primitives, operations and transformations. Complex forms modeling."
+        ],
+        "links": [
+            {
+                "text": "GitHub",
+                "href": "https://github.com/yanisseF69/Modelisation-geometrique/"
+            },
+            {
+                "text": "Part 1 Report (French)",
+                "href": "/Rapport_MG_1.pdf"
+            },
+            {
+                "text": "Part 2 Report (French)",
+                "href": "Rapport_MG_2.pdf"
+            }
+        ],
+        "tags" : [
+            "C++",
+            "QT",
+            "Geometric Modeling",
+            "Curves",
+            "Implicit surfaces"
+        ]
+    },
+    {
+        "image": "fightClub.png",
+        "title": "Turn-Based Fighting Game",
+        "bodyText": [
+            "First project in game design and development.",
+            "Coded in C++ using the SDL2 and JsonCpp library."
+        ],
+        "tags": [
+            "C++",
+            "SDL2",
+            "JsonCpp",
+            "Game"
+        ]
+    },
+    {
+        "image" : "voronoi.png",
+        "title": "Voronoï diagram generation",
+        "bodyText": [
+            "Introduction to Graphs.",
+            "Implementing the shortest path algorithm (Dijkstra)."
+        ],
+        "links": [
+            {
+                "text": "GitHub",
+                "href": "https://github.com/yanisseF69/LIFAPC_Graphe"
+            }
+        ],
+        "tags" : [
+            "C++",
+            "Dijkstra"
+        ]
+    }
+]
