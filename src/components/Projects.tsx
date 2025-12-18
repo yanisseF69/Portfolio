@@ -10,7 +10,7 @@ const Projects = () => (
                 <div className="card-body">
                     <div className="row align-items-center">
                         <div className="col-md-4 mb-3 mb-md-0">
-                            <img src={"/src/assets/projects/" + project.image} alt="Project I" className="img-fluid rounded" style={{width:'85%'}}/>
+                            <img src={"images/projects/" + project.image} alt="Project I" className="img-fluid rounded" style={{width:'85%'}}/>
                         </div>
                         <div className="col-md-8">
                             <ul className="card-text mb-0" style={{display: 'flow', gap: '5rem'}}>
