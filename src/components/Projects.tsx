@@ -10,12 +10,12 @@ const Projects = () => (
                 <div className="card-body">
                     <div className="row align-items-center">
                         <div className="col-md-4 mb-3 mb-md-0">
-                            <img src={"images/projects/" + project.image} alt="Project I" className="img-fluid rounded" style={{width:'85%'}}/>
+                            <img src={"images/projects/" + project.image} alt={"Project " + index} className="img-fluid rounded" style={{width:'100%'}}/>
                         </div>
                         <div className="col-md-8">
                             <ul className="card-text mb-0" style={{display: 'flow', gap: '5rem'}}>
                                 {project.bodyText.map((text, index) => (
-                                    <li key={index}>{text}</li>
+                                    <li key={index} dangerouslySetInnerHTML={{__html: text}} />
                                 ))}
                             </ul>
                             <div style={{marginTop: '2rem', display: 'flex', gap: '1rem', flexWrap: 'wrap', alignItems: 'center'}}>

@@ -36,7 +36,6 @@ const SideBar = () => (
               <span className="fs-4">Menu</span>
           </a>
           <hr className="d-none d-lg-block" />
-
           <ul className="nav nav-pills flex-column mb-auto">
               <li className="nav-item">
                   <HoverLink href="/">Home</HoverLink>
@@ -49,9 +48,6 @@ const SideBar = () => (
               </li>
               <li>
                   <HoverLink href="/projects">Projects</HoverLink>
-              </li>
-              <li>
-                  <HoverLink href="/">Projects</HoverLink>
               </li>
               <li>
                 <div className="dropdown">
