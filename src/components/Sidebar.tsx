@@ -41,13 +41,13 @@ const SideBar = () => (
                   <HoverLink href="/">Home</HoverLink>
               </li>
               <li>
-                  <HoverLink href="/">About</HoverLink>
-              </li>
-              <li>
-                  <HoverLink href="/">Experience</HoverLink>
+                  <HoverLink href="/experience">Experience</HoverLink>
               </li>
               <li>
                   <HoverLink href="/projects">Projects</HoverLink>
+              </li>
+              <li>
+                  <HoverLink href="/personal">Personal</HoverLink>
               </li>
               <li>
                 <div className="dropdown">

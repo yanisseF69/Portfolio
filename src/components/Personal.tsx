@@ -1,6 +1,6 @@
 const Personal = () => (
-    <div className="container">
-        <h1>Personal page on progress...</h1>
+    <div className="container mt-5 px-1">
+        <h1>Personal page in progress...</h1>
     </div>
 )
 
