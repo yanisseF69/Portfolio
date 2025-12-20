@@ -1,18 +1,20 @@
 import type React from 'react';
-import Sidebar from './Sidebar';
+import SideBar from './SideBar';
 
-const Layout = ({ children } : {children:React.ReactNode}) => {
-  return (
-    <div className="d-lg-flex" style={{ minHeight: '100vh' }}>
-      
-      <Sidebar />
+const Layout = ({ children } : {children:React.ReactNode}) => (
+    <div className="container-fluid p-0" style={{ height: '100vh', overflow: 'hidden' }}>
+      <div className="row h-100 g-0">
 
-      <main className="flex-grow-1 p-4 bg-light">
-        {children}
-      </main>
-      
+        <SideBar /> 
+        
+        <main className="col-12 col-lg-10 h-100" style={{ overflowY: 'auto' }}>
+            <div className="p-4">
+                {children}
+            </div>
+        </main>
+        
+      </div>
     </div>
   );
-};
 
 export default Layout;
