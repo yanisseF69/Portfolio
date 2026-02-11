@@ -1,0 +1,16 @@
+{
+    "social": [
+        {
+            "network" : "linkedin",
+            "href": "https://www.linkedin.com/in/yanisse-ferhaoui/"
+        },
+        {
+            "network" : "github",
+            "href": "https://github.com/yanisseF69"
+        },
+        {
+            "network" : "email",
+            "href": "mailto:yanisseferhaoui@gmail.com"
+        }
+    ]
+}

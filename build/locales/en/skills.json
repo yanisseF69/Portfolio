@@ -1,0 +1,75 @@
+{
+    "intro": "During my schooling and my free time, I have discovered many programming languages and tools.\nHere is a list of those I have become familiar with:",
+    "skills": [{
+     
+            "title": "Languages",
+            "items" : [
+     
+                {
+                    "icon": "images/skills/c-plus-plus.svg",
+                    "title": "C/C++"
+                },
+                {
+                    "icon": "images/skills/python.png",
+                    "title": "Python"
+                },
+                {
+                    "icon": "images/skills/matlab.png",
+                    "title": "Matlab"
+                },
+                {
+                    "icon": "images/skills/java.png",
+                    "title": "Java"
+                },
+                {
+                    "icon": "images/skills/js.png",
+                    "title": "JavaScript"
+                }
+        ]},
+        {
+            "title": "Frameworks & Technologies",
+            "items" : [
+                {
+                    "icon": "images/skills/opencv.png",
+                    "title": "OpenCV"
+                },
+                {
+                    "icon": "images/skills/opengl.png",
+                    "title": "OpenGL"
+                },
+                {
+                    "icon": "images/skills/sdl2.png",
+                    "title": "SDL2"
+                },
+                {
+                    "icon": "images/skills/qt.png",
+                    "title": "QT"
+                },
+                {
+                    "icon": "images/skills/react.png",
+                    "title": "React"
+                }
+            ]
+        },
+        {
+            "title" : "Tools & Platforms",
+            "items": [
+                {
+                    "icon": "images/skills/git.png",
+                    "title": "Git"
+                },
+                {
+                    "icon": "images/skills/tensorflow.png",
+                    "title": "Tensorflow"
+                },
+                {
+                    "icon": "images/skills/pytorch.png",
+                    "title": "PyTorch"
+                },
+                {
+                    "icon": "images/skills/docker.png",
+                    "title": "Docker"
+                }
+            ]
+    }
+]}

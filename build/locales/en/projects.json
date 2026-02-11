@@ -1,0 +1,217 @@
+{
+    "show" : "Show more",
+    "projects" : [
+        {
+            "image" : "images/projects/diaphragm.gif",
+            "title": "Medical imaging research - Continued",
+            "bodyText": "- 3D organ reconstruction.",
+            "tags" : [
+                "Python",
+                "IA",
+                "Pytorch",
+                "MONAI"
+            ]
+        },
+        {
+            "image" : "images/projects/diaphragm.png",
+            "title": "Medical imaging research",
+            "bodyText": "- Automatic segmentation of the diaphragm.\n - Deep learning and usage of **Transfer Learning**.",
+            "links": [
+                {
+                    "text": "Report (French)",
+                    "href": "/Rapport_MIF11.pdf"
+                }
+            ],
+            "tags" : [
+                "Python",
+                "IA",
+                "Tensorflow",
+                "Keras"
+            ]
+        },
+        {
+            "image" : "images/projects/robots.jpg",
+            "title": "LEGO ball retrieval robots",
+            "bodyText": "- Made in C++ with EV3Dev library.\n - Usage of OpenCV for image process.\n - Merge 4 cameras to obtain a top view.",
+            "links": [
+                {
+                    "text": "Report (French)",
+                    "href": "/Rapport_Idefix.pdf"
+                }
+            ],
+            "tags" : [
+                "C++",
+                "EV3Dev",
+                "OpenCV",
+                "Robotics"
+            ]
+        },
+        {
+            "image" : "images/projects/drawing.png",
+            "title": "Drawing predictions website",
+            "bodyText": "- Discovering of deep learning for image classification.\n - Using Tensorflow for building architecture and training.\n - Display of TOP 3 prediction percentage.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/yanisseF69/Projet_info_2023"
+                }
+            ],
+            "tags" : [
+                "Python",
+                "Deep learning",
+                "AI",
+                "Tensorflow",
+                "Keras",
+                "OpenCV"
+            ]
+        },
+        {
+            "image" : "images/projects/monteCarlo.png",
+            "title": "3D rendering",
+            "bodyText": "- Made with C++.\n- Usage of ray tracing.\n- Implementation of the Monte Carlo estimator. ",
+            "tags" : [
+                "C++",
+                "3D Rendering",
+                "Monte Carlo",
+                "Ray tracing"
+            ]
+        },
+        {
+            "image": "images/projects/cubeWorld.png",
+            "title": "3D Image Synthesis",
+            "bodyText": "- Utilized C++ and the OpenGL 3D API.\n- Modeled a terrain filled with cubes.\n- Cube color varies based on height.",
+            "tags": [
+                "C++",
+                "OpenGL",
+                "3D Rendering"
+            ]
+        },
+        {
+            "image": "images/projects/genCNN.png",
+            "title": "Deep Learning for Image Generation",
+            "bodyText": "- Implemented in Python using Pytorch.\n- Reproduces images based on a dance video.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/yanisseF69/ATIV-TP-Dance"
+                }
+            ],
+            "tags": [
+                "Python",
+                "Deep Learning",
+                "AI",
+                "Pytorch",
+                "Pillow",
+                "OpenCV"
+            ]
+        },
+        {
+            "image": "images/projects/signal.png",
+            "title": "Signal process for images",
+            "bodyText": "- Made with Matlab.\n- Usage of Fourier transform for image process.",
+            "tags": [
+                "Matlab",
+                "Signal",
+                "Fourier"
+            ]
+        },
+        {
+            "image": "images/projects/fightClub.png",
+            "title": "Turn-Based Fighting Game",
+            "bodyText": "- First project in game design and development.\n- Coded in C++ using the SDL2 and JsonCpp library.",
+            "tags": [
+                "C++",
+                "SDL2",
+                "JsonCpp",
+                "Game"
+            ]
+        },
+        {
+            "image": "images/projects/tpCV.png",
+            "title": "Image Analysis",
+            "bodyText": "- Utilized Python, C++, and the OpenCV library.\n- Part 1: Edge detection using convolution filters.\n- Part 2: Implemented the Hough Transform algorithm to detect lines and circles.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/yanisseF69/mif17-analyse-d_images"
+                }
+            ],
+            "tags": [
+                "C++",
+                "Python",
+                "OpenCV",
+                "Computer Vision",
+                "Hough Transform"
+            ]
+        },         
+        {
+            "image": "images/projects/laplacian.png",
+            "title": "Laplacian Operator on a Mesh",
+            "bodyText": "- Module in C++ for loading a mesh in .off format.\n- Implementation of the Laplacian operator to calculate curvature.",
+            "links": [
+                {
+                    "text": "Report (French)",
+                    "href": "/Rapport_GAM.pdf"
+                }
+            ],
+            "tags": [
+                "C++",
+                "Meshes",
+                "Geometry",
+                "Laplacian"
+            ]
+        },
+        {
+            "image" : "images/projects/surfaces.png",
+            "title": "Curves, revolution and implicit surfaces",
+            "bodyText": "- 1rst part : Bézier et Hermite Cubique Spline curves.\n- 2nd part : coding of primitives, operations and transformations. Complex forms modeling.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/yanisseF69/Modelisation-geometrique/"
+                },
+                {
+                    "text": "Part 1 Report (French)",
+                    "href": "/Rapport_MG_1.pdf"
+                },
+                {
+                    "text": "Part 2 Report (French)",
+                    "href": "Rapport_MG_2.pdf"
+                }
+            ],
+            "tags" : [
+                "C++",
+                "QT",
+                "Geometric Modeling",
+                "Curves",
+                "Implicit surfaces"
+            ]
+        },
+        {
+            "image": "images/projects/fightClub.png",
+            "title": "Turn-Based Fighting Game",
+            "bodyText": "- First project in game design and development.\n- Coded in C++ using the SDL2 and JsonCpp library.",
+            "tags": [
+                "C++",
+                "SDL2",
+                "JsonCpp",
+                "Game"
+            ]
+        },
+        {
+            "image" : "images/projects/voronoi.png",
+            "title": "Voronoï diagram generation",
+            "bodyText": "- Introduction to Graphs.\n- Implementing the shortest path algorithm (Dijkstra).",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/yanisseF69/LIFAPC_Graphe"
+                }
+            ],
+            "tags" : [
+                "C++",
+                "Dijkstra"
+            ]
+        }
+    ]
+}

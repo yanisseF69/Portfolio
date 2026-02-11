@@ -1,0 +1,75 @@
+{
+    "intro": "Durant mon cursus scolaire et mon temps libre, j'ai découvert de nombreux langages et outils informatiques.\nVoici une liste de ceux dont je me suis familiarisé :",
+    "skills": [{
+     
+            "title": "Langages & Bases de données",
+            "items" : [
+     
+                {
+                    "icon": "images/skills/c-plus-plus.svg",
+                    "title": "C/C++"
+                },
+                {
+                    "icon": "images/skills/python.png",
+                    "title": "Python"
+                },
+                {
+                    "icon": "images/skills/matlab.png",
+                    "title": "Matlab"
+                },
+                {
+                    "icon": "images/skills/java.png",
+                    "title": "Java"
+                },
+                {
+                    "icon": "images/skills/js.png",
+                    "title": "JavaScript"
+                }
+        ]},
+        {
+            "title": "Frameworks & Technologies",
+            "items" : [
+                {
+                    "icon": "images/skills/opencv.png",
+                    "title": "OpenCV"
+                },
+                {
+                    "icon": "images/skills/opengl.png",
+                    "title": "OpenGL"
+                },
+                {
+                    "icon": "images/skills/sdl2.png",
+                    "title": "SDL2"
+                },
+                {
+                    "icon": "images/skills/qt.png",
+                    "title": "QT"
+                },
+                {
+                    "icon": "images/skills/react.png",
+                    "title": "React"
+                }
+            ]
+        },
+        {
+            "title" : "Outils & Plates-formes",
+            "items": [
+                {
+                    "icon": "images/skills/git.png",
+                    "title": "Git"
+                },
+                {
+                    "icon": "images/skills/tensorflow.png",
+                    "title": "Tensorflow"
+                },
+                {
+                    "icon": "images/skills/pytorch.png",
+                    "title": "PyTorch"
+                },
+                {
+                    "icon": "images/skills/docker.png",
+                    "title": "Docker"
+                }
+            ]
+    }
+]}
