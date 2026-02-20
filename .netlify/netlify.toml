@@ -10,9 +10,9 @@ headers = []
 [functions."*"]
 
 [build]
+publish = "/home/yanisse/Documents/Workspace/dev-portfolio/build"
 publishOrigin = "ui"
 command = "npm run build"
-publish = "dist"
 commandOrigin = "ui"
 
 [build.environment]
