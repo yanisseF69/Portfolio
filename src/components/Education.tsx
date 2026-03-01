@@ -36,9 +36,9 @@ const Education = () => (
                     <ul style={{ listStyleType: '', textAlign: 'left', marginBottom: '10px'}}>
                     {data.description.map((item) => (
                         <li style={{ marginBottom: '10px'}}>
-                            <p key={index}>
+                            <h6 key={index}>
                                 <b>{item.title} :</b> {item.content}
-                            </p>
+                            </h6>
                         </li>
                         
                     ))}

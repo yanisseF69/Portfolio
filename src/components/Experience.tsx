@@ -36,7 +36,9 @@ const Experience = () => (
                     <ul style={{ listStyleType: '', textAlign: 'left', marginBottom: '10px'}}>
                     {experience.description.map((desc) => (
                         <li style={{ marginBottom: '10px'}}>
-                            {desc}
+                            <h6 key={index}>
+                                {desc}
+                            </h6>
                         </li>
                         
                     ))}

@@ -15,7 +15,7 @@ const Projects = () => (
                         <div className="col-md-8">
                             <ul className="card-text mb-0" style={{display: 'flow', gap: '5rem'}}>
                                 {project.bodyText.map((text, index) => (
-                                    <li key={index} dangerouslySetInnerHTML={{__html: text}} />
+                                    <h6><li key={index} dangerouslySetInnerHTML={{__html: text}} /></h6>
                                 ))}
                             </ul>
                             <div style={{marginTop: '2rem', display: 'flex', gap: '1rem', flexWrap: 'wrap', alignItems: 'center'}}>

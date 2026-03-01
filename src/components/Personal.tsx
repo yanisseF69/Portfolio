@@ -6,14 +6,12 @@ const Personal = () => (
         <br></br><br></br>
         <div className="container row align-items-center">
     
-            {/* LEFT SIDE - TEXT */}
-            <div className="col-md-7">
+            <div className="col-md-6">
             {personal.desc.map((item) => (
-                <p>{item}</p>
+                <h6 className='mb-4'>{item}</h6>
             ))}
             </div>
 
-            {/* RIGHT SIDE - IMAGE */}
             <div className="col-md-5 text-center">
             <img
                 src="images/personal/profile.png"
