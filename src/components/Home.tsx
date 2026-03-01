@@ -11,7 +11,7 @@ const Home = () => (
         <h1><b>Yanisse FERHAOUI</b></h1>
         <h2>Junior Software Engineer</h2>
         <h4>
-          Contact : 
+          Contact: 
           <a href="mailto:yanisseferhaoui@gmail.com">
             yanisseferhaoui@gmail.com
           </a>
