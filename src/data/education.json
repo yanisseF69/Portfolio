@@ -1,0 +1,30 @@
+[
+    {
+        "logo" : "UCBL.jpg",
+        "curriculum": "MSc in Computer Science",
+        "school" : "University Claude Bernard Lyon I",
+        "date" : "Sep. 2023 - Aug. 2025",
+        "description": [
+            {
+                "title" : "M2",
+                "content" : "GPU programming, Virtual Reality, Image processing, Computational geometry."
+            },
+            {
+                "title" : "M1 core",
+                "content" : "Software engineering & project management, Artificial Intelligence, Computational complexity."
+            }
+        ]
+    },
+    {
+        "logo" : "UCBL.jpg",
+        "curriculum": "BSc in Computer Science",
+        "school" : "University Claude Bernard Lyon I",
+        "date" : "Sep. 2020 - Jul. 2023",
+        "description": [
+            {
+                "title" : "Comprehensive CS foundation",
+                "content" : "Operating systems, IP/TCP networks, SQL databases, Computer architecture, Web development, Advanced algorithms"
+            }
+        ]
+    }
+]

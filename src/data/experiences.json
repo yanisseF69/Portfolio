@@ -1,0 +1,24 @@
+[
+    {
+        "logo" : "IP.jpg",
+        "job": "R&D Intern",
+        "company" : "Institut Pascal - University Clermont Auvergne",
+        "date" : "Feb. 2025 - Jul. 2025",
+        "description": [
+            "Architectural integration of LLMs into the 3D medical software 3D Slicer.",
+            "Training and fine-tuning of deep learning models on a multi-GPU compute cluster.",
+            "Development of an extension for user assistance.",
+            "Writing technical documentation and following open-source coding standards."
+        ]
+    },
+    {
+        "logo" : "AMS.jpg",
+        "job": "Php/Symfony developer",
+        "company" : "AMS Mantes Solidarité",
+        "date" : "May 2023 - Jun. 2023",
+        "description": [
+            "Backend development : donation management API and administration interface.",
+            "Integration of a payment module and management of a relational database."
+        ]
+    }
+]

@@ -41,6 +41,12 @@ const SideBar = () => (
                   <HoverLink href="/">Home</HoverLink>
               </li>
               <li>
+                  <HoverLink href="/skills">Skills</HoverLink>
+              </li>
+              <li>
+                  <HoverLink href="/education">Education</HoverLink>
+              </li>
+              <li>
                   <HoverLink href="/experience">Experience</HoverLink>
               </li>
               <li>
@@ -63,7 +69,7 @@ const SideBar = () => (
           </ul>
           <hr />
           <div>
-            <p>Copyright © 2025 Yanisse FERHAOUI</p>
+            <p>Copyright © 2026 Yanisse FERHAOUI</p>
           </div>
       </div>
     </div>

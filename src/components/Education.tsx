@@ -1,21 +1,21 @@
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
-import experiences from '../data/experiences.json'
+import education from '../data/education.json'
 
-const Experience = () => (
+const Education = () => (
     <div className="container mt-5 px-1" style={{textAlign: 'center'}}>
-        <h1>Experiences</h1>
+        <h1>Education</h1>
         <br></br>
         <VerticalTimeline
         lineColor='DodgerBlue'
         >
-            {experiences.map((experience, index) => (
+            {education.map((data, index) => (
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{ background: 'rgba(240, 240, 240, 1)', color: '#000000ff', border: '1px solid DodgerBlue' }}
                     contentArrowStyle={{ borderRight: '7px solid DodgerBlue'}}
-                    date={experience.date}
+                    date={data.date}
                     iconStyle={{ 
                         background: 'DodgerBlue', 
                         color: '#fff',
@@ -24,19 +24,21 @@ const Experience = () => (
                         justifyContent: 'center'
                     }}
                     icon={<img 
-                        src={"images/experience/" + experience.logo} 
+                        src={"images/education/" + data.logo} 
                         alt={"Logo " + index}
                         style={{ width: '3rem', height: '3rem', alignContent: '', borderRadius: '50%'}}
                         />}
                 >
-                    <h3 className="vertical-timeline-element-title">{experience.job}</h3>
-                    <h5 className="vertical-timeline-element-subtitle" style={{ color: 'dodgerblue'}}>{experience.company}</h5>
-                    <br></br><br></br>
+                    <h3 className="vertical-timeline-element-title">{data.curriculum}</h3>
+                    <h5 className="vertical-timeline-element-subtitle" style={{ color: 'dodgerblue'}}>{data.school}</h5>
+                    <br></br>
             
                     <ul style={{ listStyleType: '', textAlign: 'left', marginBottom: '10px'}}>
-                    {experience.description.map((desc) => (
+                    {data.description.map((item) => (
                         <li style={{ marginBottom: '10px'}}>
-                            {desc}
+                            <p key={index}>
+                                <b>{item.title} :</b> {item.content}
+                            </p>
                         </li>
                         
                     ))}
@@ -47,4 +49,4 @@ const Experience = () => (
             </div>
         )
 
-export default Experience;
+export default Education;
