@@ -40,7 +40,6 @@ const Experience = () => (
                                 {desc}
                             </h6>
                         </li>
-                        
                     ))}
                     </ul>
                 </VerticalTimelineElement>

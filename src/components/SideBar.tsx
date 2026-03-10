@@ -19,7 +19,7 @@ const HoverLink = ({children, href}: {children:React.ReactNode, href:string}) =>
 const SideBar = () => (
   <>
     <div className="col-12 d-lg-none bg-light p-3 border-bottom d-flex align-items-center justify-content-between sticky-top" style={{ zIndex: 1030 }}>
-        <span className="fw-bold">PortFolio</span>
+        <span className="fw-bold">Yanisse FERHAOUI</span>
         <button className="btn btn-outline-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu">
             ☰ Menu
         </button>
@@ -41,6 +41,9 @@ const SideBar = () => (
                   <HoverLink href="/">Home</HoverLink>
               </li>
               <li>
+                  <HoverLink href="/projects">Projects</HoverLink>
+              </li>
+              <li>
                   <HoverLink href="/skills">Skills</HoverLink>
               </li>
               <li>
@@ -48,9 +51,6 @@ const SideBar = () => (
               </li>
               <li>
                   <HoverLink href="/experience">Experience</HoverLink>
-              </li>
-              <li>
-                  <HoverLink href="/projects">Projects</HoverLink>
               </li>
               <li>
                   <HoverLink href="/personal">Personal</HoverLink>

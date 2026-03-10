@@ -1,4 +1,10 @@
 import personal from '../data/personal.json'
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+import 'swiper/css';
+import 'swiper/css/pagination';
+
+import { Pagination } from 'swiper/modules';
 
 const Personal = () => (
     <div className="container mt-5 px-1" style={{textAlign: 'center'}}>
@@ -13,12 +19,39 @@ const Personal = () => (
             </div>
 
             <div className="col-md-5 text-center">
-            <img
-                src="images/personal/profile.png"
-                alt="Portrait"
-                className="img-fluid rounded shadow"
-                style={{ maxWidth: "300px" }}
-            />
+            
+            <Swiper
+                pagination={{
+                dynamicBullets: true,
+                }}
+                modules={[Pagination]}
+                className="mySwiper"
+            >
+                {personal.images.map((image, item) => (
+                    <SwiperSlide
+                        key={item}
+                        style={{
+                            display: 'flex',
+                            justifyContent: "center",
+                            alignItems: "center",
+                            height: "450px"
+                        }}
+                    >
+                        <div>
+                            <img
+                                src={"images/personal/" + image.link}
+                                alt={"Image " + item}
+                                className="img-fluid rounded shadow"
+                                style={{ maxWidth: "300px", marginBottom: "1rem"}}
+                            />
+                            <p>{image.legend}</p>
+                            <br></br>
+                        </div>
+                        
+                    </SwiperSlide>
+                ))}
+            </Swiper>
+            
             </div>
 
         </div>

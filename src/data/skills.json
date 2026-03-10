@@ -1,0 +1,129 @@
+{
+    "languages" : [
+        {
+            "name" : "C++",
+            "logo" : "c-plus-plus.svg",
+            "examples" : [
+                "Advanced algorithm, computational geometry.",
+                "Multithreading.",
+                "Object Oriented Programming & polymorphism."
+            ]
+        },
+        {
+            "name" : "Python",
+            "logo" : "python.png",
+            "examples" : [
+                "Computer vision.",
+                "Machine learning & Deep learning.",
+                "API & server programming."
+            ]
+        },
+        {
+            "name" : "Java",
+            "logo" : "java.png",
+            "examples" : [
+                "Advanced algorithm.",
+                "Object Oriented Programming & polymorphism.."
+            ]
+        },
+        {
+            "name" : "Matlab",
+            "logo" : "matlab.png",
+            "examples" : [
+                "Signal & image procesing."
+            ]
+        },
+        {
+            "name" : "Javascript",
+            "logo" : "js.png",
+            "examples" : [
+                "Web development.",
+                "API calling."
+            ]
+        }
+    ],
+    "frameworks" : [
+        {
+            "name" : "Qt",
+            "logo" : "qt.png",
+            "examples" : [
+                "With C++ and Python.",
+                "Desktop applications.",
+                "2D/3D graphic display."
+            ]
+        },
+        {
+            "name" : "OpenGL",
+            "logo" : "opengl.png",
+            "examples" : [
+                "With C++.",
+                "3D graphic display and programming."
+            ]
+        },
+        {
+            "name" : "OpenCV",
+            "logo" : "opencv.png",
+            "examples" : [
+                "With C++ and Python.",
+                "Image processing."
+            ]
+        },
+        {
+            "name" : "SDL2",
+            "logo" : "sdl2.png",
+            "examples" : [
+                "With C++.",
+                "2D graphic display and programming."
+            ]
+        },
+        {
+            "name" : "React.js",
+            "logo" : "react.png",
+            "examples" : [
+                "Web development.",
+                "The actual framework used for this website."
+            ]
+        }
+    ],
+    "tools" : [
+        {
+            "name" : "Docker",
+            "logo" : "docker.png",
+            "examples" : [
+                "Virtualization and deployement."
+            ]
+        },
+        {
+            "name" : "PyTorch",
+            "logo" : "pytorch.png",
+            "examples" : [
+                "AI programming.",
+                "Deep learning & neural networks."
+            ]
+        },
+        {
+            "name" : "Git",
+            "logo" : "git.png",
+            "examples" : [
+                "Version control.",
+                "Collaborative work."
+            ]
+        },
+        {
+            "name" : "GitLab CI",
+            "logo" : "git.png",
+            "examples" : [
+                "Continuous deployment & integration.",
+                "Unit & integration tests."
+            ]
+        },
+        {
+            "name" : "Tensorflow",
+            "logo" : "tensorflow.png",
+            "examples" : [
+                "AI programming.",
+                "Deep learning & neural networks."
+            ]
+        }
+    ]
+}
