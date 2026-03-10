@@ -9,7 +9,7 @@ import { Pagination, Navigation } from 'swiper/modules';
 
 const Personal = () => (
     <div className="container mt-5 px-1" style={{textAlign: 'center'}}>
-        <h1>About Me</h1>
+        <h1>Personal</h1>
         <br></br><br></br>
         <div className="container row align-items-center">
     
