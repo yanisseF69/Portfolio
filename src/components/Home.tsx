@@ -18,7 +18,7 @@ const Home = () => (
         </h4>
 
         <div className="d-flex justify-content-center gap-4 mt-3">
-          <a href="https://github.com/yanisseF69" target="_blank" rel="noreferrer">
+          <a href="https://github.com/yanisseFrh" target="_blank" rel="noreferrer">
             <img src={github} style={{ width: "3rem", height: "3rem" }} />
           </a>
 
@@ -29,7 +29,7 @@ const Home = () => (
       </div>
 
       <div>
-        <a href="https://github.com/yanisseF69" target="_blank" rel="noreferrer">
+        <a href="https://github.com/yanisseFrh" target="_blank" rel="noreferrer">
           <img
             src={me}
             alt="Yanisse"
