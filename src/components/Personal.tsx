@@ -3,8 +3,9 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css';
 import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 
-import { Pagination } from 'swiper/modules';
+import { Pagination, Navigation } from 'swiper/modules';
 
 const Personal = () => (
     <div className="container mt-5 px-1" style={{textAlign: 'center'}}>
@@ -24,7 +25,8 @@ const Personal = () => (
                 pagination={{
                 dynamicBullets: true,
                 }}
-                modules={[Pagination]}
+                navigation={true}
+                modules={[Pagination, Navigation]}
                 className="mySwiper"
             >
                 {personal.images.map((image, item) => (
