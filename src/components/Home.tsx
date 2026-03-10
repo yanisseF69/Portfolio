@@ -19,11 +19,11 @@ const Home = () => (
 
         <div className="d-flex justify-content-center gap-4 mt-3">
           <a href="https://github.com/yanisseF69" target="_blank" rel="noreferrer">
-            <img src={github} style={{ width: "3rem" }} />
+            <img src={github} style={{ width: "3rem", height: "3rem" }} />
           </a>
 
           <a href="https://www.linkedin.com/in/yanisse-ferhaoui/" target="_blank" rel="noreferrer">
-            <img src={linkedin} style={{ width: "3rem" }} />
+            <img src={linkedin} style={{ width: "3rem", height: "3rem" }} />
           </a>
         </div>
       </div>
