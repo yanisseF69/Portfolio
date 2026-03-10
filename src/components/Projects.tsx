@@ -3,7 +3,7 @@ import projects from '../data/projects.json'
 const Projects = () => (
     <div className="container mt-5 px-1" style={{textAlign: 'center'}}>
         <h1>My projects</h1>
-        <h6>There is some projects I made and contribute during my free time and my academic years.</h6>
+        <h5>There is some projects I made and contribute during my free time and my academic years.</h5>
         {projects.map((project, index) => (
             <div key={index} className="card border-primary mb-3" style={{ textAlign: 'left' }}>
                 <div className="card-header"><h5><b>{project.title}</b></h5></div>
