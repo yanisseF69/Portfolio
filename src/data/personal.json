@@ -7,11 +7,11 @@
     "images" : [
         {
             "link" : "venissieux2025.png",
-            "legend" : "10km Running competition, Vénissieux 2025."
+            "legend" : "10km Running competition, Vénissieux 2025"
         },
         {
             "link" : "montThou2024.jpg",
-            "legend" : "Climbing Mont Thou, Auvergne-Rhône-Alpes 2024."
+            "legend" : "Climbing Mont Thou, Auvergne-Rhône-Alpes 2024"
         }
     ]
 }
