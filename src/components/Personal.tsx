@@ -44,7 +44,7 @@ const Personal = () => (
                                 src={"images/personal/" + image.link}
                                 alt={"Image " + item}
                                 className="img-fluid rounded shadow"
-                                style={{ maxWidth: "300px", marginBottom: "1rem"}}
+                                style={{ maxWidth: "70%", marginBottom: "1rem"}}
                             />
                             <p>{image.legend}</p>
                             <br></br>
