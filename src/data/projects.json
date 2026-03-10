@@ -172,8 +172,15 @@
         "image" : "monteCarlo.png",
         "title": "3D rendering",
         "bodyText": [
-            "Made with C++.\n- Usage of ray tracing.",
+            "Made with C++.",
+            "Usage of ray tracing.",
             "Implementation of the Monte Carlo estimator."
+        ],
+        "links": [
+            {
+                "text": "Report (French)",
+                "href": "/Rapport_RayTracing.pdf"
+            }
         ],
         "tags" : [
             "C++",
@@ -189,6 +196,12 @@
             "With C++ and the OpenGL 3D API.",
             "Modeled a terrain filled with cubes.",
             "Cube color varies based on height."
+        ],
+        "links": [
+            {
+                "text": "Report (French)",
+                "href": "/Rapport_OpenGL.pdf"
+            }
         ],
         "tags": [
             "C++",
