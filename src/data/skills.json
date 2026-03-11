@@ -111,7 +111,7 @@
         },
         {
             "name" : "GitLab CI",
-            "logo" : "git.png",
+            "logo" : "gitlab.png",
             "examples" : [
                 "Continuous deployment & integration.",
                 "Unit & integration tests."

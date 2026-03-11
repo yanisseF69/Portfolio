@@ -19,13 +19,13 @@ const HoverLink = ({children, href}: {children:React.ReactNode, href:string}) =>
 const SideBar = () => (
   <>
     <div className="col-12 d-lg-none bg-light p-3 border-bottom d-flex align-items-center justify-content-between sticky-top" style={{ zIndex: 1030 }}>
-        <span className="fw-bold">Yanisse FERHAOUI</span>
+        <a href="/" className="link-dark text-decoration-none"><span className="fw-bold">Yanisse FERHAOUI</span></a>
         <button className="btn btn-outline-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu">
             ☰ Menu
         </button>
     </div>
 
-    <div className="col-12 col-lg-2 bg-light border-end offcanvas-lg offcanvas-start p-0" id="sidebarMenu" aria-labelledby="sidebarMenuLabel">
+    <div className="col-12 col-lg-2 bg-light border-end offcanvas-lg offcanvas-start p-0 sidebar-desktop" id="sidebarMenu" aria-labelledby="sidebarMenuLabel">
       <div className="offcanvas-header">
           <h5 className="offcanvas-title" id="sidebarMenuLabel">Menu</h5>
           <button type="button" className="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#sidebarMenu" aria-label="Close"></button>

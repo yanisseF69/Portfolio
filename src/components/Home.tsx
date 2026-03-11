@@ -9,12 +9,9 @@ const Home = () => (
 
       <div style={{ maxWidth: "600px" }}>
         <h1><b>Yanisse FERHAOUI</b></h1>
-        <h2>Junior Software Engineer</h2>
+        <h2>Software Engineer</h2>
         <h4>
-          Contact: 
-          <a href="mailto:yanisseferhaoui@gmail.com">
-            yanisseferhaoui@gmail.com
-          </a>
+          Contact : <a href="mailto:yanisseferhaoui@gmail.com">yanisseferhaoui@gmail.com</a>
         </h4>
 
         <div className="d-flex justify-content-center gap-4 mt-3">
@@ -46,9 +43,9 @@ const Home = () => (
     {/* DESCRIPTION */}
     <div className="container px-lg-5 text-center">
       <h6 style={{ maxWidth: "800px", margin: "0 auto" }}>
-        Junior Software Engineer graduated with a Master's degree, specializing in 3D Graphics, C++ development and AI.
+        Junior Software Engineer graduated with a Master's degree, specializing in 3D Graphics, C++ development and AI.<br></br>
 
-        Through my academic and personal projects, I have built strong expertise in Qt, OpenGL, and computational geometry.
+        Through my academic and personal projects, I have built strong expertise in Qt, OpenGL, computer vision and computational geometry.<br></br>
         I am passionate about solving complex challenges and am looking for an opportunity to apply my technical skills in a dynamic R&D team.
       </h6>
     </div>
