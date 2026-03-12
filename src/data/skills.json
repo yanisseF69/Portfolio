@@ -23,7 +23,8 @@
             "logo" : "java.png",
             "examples" : [
                 "Advanced algorithm.",
-                "Object Oriented Programming & polymorphism."
+                "Object Oriented Programming & polymorphism.",
+                "Web server programming."
             ]
         },
         {
@@ -91,6 +92,13 @@
             "logo" : "docker.png",
             "examples" : [
                 "Virtualization and deployement."
+            ]
+        },
+        {
+            "name" : "CMake",
+            "logo" : "cmake.png",
+            "examples" : [
+                "Compiling & using C++ projects in different operating systems."
             ]
         },
         {
