@@ -43,10 +43,11 @@ const Home = () => (
     {/* DESCRIPTION */}
     <div className="container px-lg-5 text-center">
       <h6 style={{ maxWidth: "800px", margin: "0 auto" }}>
-        Software Engineer graduated with a Master's degree, specializing in 3D Graphics, C++ development and AI.<br></br>
+        Software Engineer with a Master’s degree, focused on 3D graphics, C++ development, and artificial intelligence.<br /><br />
 
-        Through my academic and personal projects, I have built strong expertise in Qt, OpenGL, computer vision and computational geometry.<br></br>
-        I am passionate about solving complex challenges and am looking for an opportunity to apply my technical skills in a dynamic R&D team.
+        I enjoy building things that connect low-level systems (C++, GPU, OpenGL) with modern AI and computer vision. Through academic and personal projects, I’ve worked on everything from real-time 3D rendering engines to AI-powered tools and medical imaging applications.<br /><br />
+
+        I’m particularly interested in R&D environments where I can explore complex technical problems, learn continuously, and turn ideas into working systems.
       </h6>
     </div>
 
