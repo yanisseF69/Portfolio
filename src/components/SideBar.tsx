@@ -61,8 +61,8 @@ const SideBar = () => (
                         <strong>Resume</strong>
                     </a>
                     <ul className="dropdown-menu shadow">
-                        <li><a className="dropdown-item" target="_blank" rel="noopener noreferrer" href="/CV_FERHAOUI_YANISSE.pdf">French</a></li>
-                        <li><a className="dropdown-item" target="_blank" rel="noopener noreferrer" href="/RESUME_FERHAOUI_YANISSE.pdf">English</a></li>
+                        <li><a className="dropdown-item" target="_blank" rel="noopener noreferrer" href={`/CV_FERHAOUI_YANISSE.pdf?v=${Date.now()}`}>French</a></li>
+                        <li><a className="dropdown-item" target="_blank" rel="noopener noreferrer" href={`/RESUME_FERHAOUI_YANISSE.pdf?v=${Date.now()}`}>English</a></li>
                     </ul>
                 </div>
               </li>
